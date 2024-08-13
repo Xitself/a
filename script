@@ -3429,7 +3429,7 @@ end)
 FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
-		SendNotify("System Broken","Loading free emotes.\nCredits: Gi#7331")
+		
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/raditself/a/main/emotes"))()
 	end
 end)
