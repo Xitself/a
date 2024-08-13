@@ -3538,7 +3538,6 @@ plr.CharacterAdded:Connect(function(x)
 			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 		end
 	else
-		SysBroker:Destroy()
 		SendNotify("System Broken","An unexpected error occurred, re-joining...")
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 	end
@@ -3552,7 +3551,6 @@ task.spawn(function()
 			if version<GuiVersion then
 				SendNotify("System Broken","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
-				SysBroker:Destroy()
 				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
 			end
 		end)
