@@ -1,6 +1,6 @@
 --keybind to open is comma
---made by Gi#7331
---edited by system_calix [discord]
+--made by you
+--edited by you [discord]
 --all credits to the original creator
 
 local ContextActionService = game:GetService("ContextActionService")
