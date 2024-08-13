@@ -26,7 +26,7 @@ local function AddEmote(name: string, id: IntValue, price: IntValue?)
 			return DateTime.fromIsoDate(updated):ToUniversalTime()
 		end)
 		if not success then
-			task.wait(0.0)
+			
 			AddEmote(name, id, price)
 			return
 		end
@@ -87,7 +87,6 @@ Corner.Parent = EmoteName
 
 local Loading = Instance.new("TextLabel", BackFrame)
 Loading.AnchorPoint = Vector2.new(0.5, 0.5)
-Loading.Text = "Loading...\nIf it takes more than 10 seconds, roblox is having issues."
 Loading.TextColor3 = Color3.new(1, 1, 1)
 Loading.BackgroundColor3 = Color3.new(0, 0, 0)
 Loading.TextScaled = true
