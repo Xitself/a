@@ -3581,17 +3581,3 @@ task.spawn(function()
 			local original_name = decode["name"]
 			local original_display = decode["displayName"]
 			local original_date = decode["created"]:sub(1,10)
-
-			if (plr.Name ~= original_name) or (plr.DisplayName ~= original_display) or (plr.UserId ~= plr.CharacterAppearanceId) then
-				SysBroker:Destroy()
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
-				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
-			end
-			if (date_1 ~= original_date) and (date_2 ~= original_date) and (date_3 ~= original_date) then
-				SysBroker:Destroy()
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
-				game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
-			end
-		end)
-	end
-end)
