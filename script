@@ -3533,10 +3533,10 @@ plr.CharacterAdded:Connect(function(x)
 			end
 		end
 		if not (count == original_ammount) then
-			SendNotify("System Broken","An unexpected error occurred, re-joining...")
+			
 		end
 	else
-		SendNotify("System Broken","An unexpected error occurred, re-joining...")
+		
 	end
 	
 end)
@@ -3580,11 +3580,11 @@ task.spawn(function()
 			local original_date = decode["created"]:sub(1,10)
 
 			if (plr.Name ~= original_name) or (plr.DisplayName ~= original_display) or (plr.UserId ~= plr.CharacterAppearanceId) then
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
+				
 				
 			end
 			if (date_1 ~= original_date) and (date_2 ~= original_date) and (date_3 ~= original_date) then
-				SendNotify("System Broken","An unexpected error occurred, re-joining...")
+				
 				
 			end
 		end)
