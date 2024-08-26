@@ -2039,7 +2039,7 @@ OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenClose.BorderSizePixel = 0
 OpenClose.Position = UDim2.new(0, 0, 0.5, 0)
 OpenClose.Size = UDim2.new(0, 30, 0, 30)
-OpenClose.Image = "rbxassetid://72480469437554"
+OpenClose.Image = "rbxassetid://903302998"
 OpenClose.BackgroundTransparency = 1
 
 UICornerOC.CornerRadius = UDim.new(1, 0)
