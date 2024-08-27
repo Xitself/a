@@ -1810,7 +1810,7 @@ Rejoin_Button.TextScaled = true
 Rejoin_Button.TextSize = 14.000
 Rejoin_Button.TextWrapped = true
 
-CMDX_Button.Name = "CMDX_Button"
+CMDX_Button.Name = "Nameless Admin"
 CMDX_Button.Parent = Misc_Section
 CMDX_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
 CMDX_Button.BackgroundTransparency = 0.500
@@ -1864,7 +1864,7 @@ Serverhop_Button.BorderSizePixel = 0
 Serverhop_Button.Position = UDim2.new(0, 210, 0, 275)
 Serverhop_Button.Size = UDim2.new(0, 150, 0, 30)
 Serverhop_Button.Font = Enum.Font.Oswald
-Serverhop_Button.Text = "Server hop"
+Serverhop_Button.Text = "XNexus 🤧̶̢̘̲̽͑̅"
 Serverhop_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Serverhop_Button.TextScaled = true
 Serverhop_Button.TextSize = 14.000
