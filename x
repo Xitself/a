@@ -3406,11 +3406,11 @@ Night_Button.MouseButton1Click:Connect(function()
 end)
 
 InfYield_Button.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/raditself/d/main/iy'))()
 end)
 
 CMDX_Button.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/raditself/b/main/nameless",true))()
 end)
 
 Explode_Button.MouseButton1Click:Connect(function()
