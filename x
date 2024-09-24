@@ -3439,7 +3439,7 @@ Rejoin_Button.MouseButton1Click:Connect(function()
 end)
 
 Serverhop_Button.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/raditself/c/main/x"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/raditself/a/main/xx"))()
 end)
 
 ChatBox_Input.FocusLost:Connect(function()
